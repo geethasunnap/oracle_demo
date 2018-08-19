@@ -1,5 +1,5 @@
 pipeline{
-    agent {label '9dec2e08431f '}
+    agent any
     stages{
         stage('Printing hostname') {
             steps {
